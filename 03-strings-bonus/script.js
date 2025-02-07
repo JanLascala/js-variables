@@ -10,7 +10,10 @@ const cityIndex = city.charAt(4);
 console.log(cityIndex); // Output: 4
 
 const cityIndex2 = city.indexOf("York");
-console.log(cityIndex2); //      not sure so i did both  
+console.log(cityIndex2);//      not sure so i did both
+
+const cityIndex3 = city.search("Y");
+console.log(cityIndex3);
 
 // 2. Sottostringhe 
 // Stampa la sottostringa "York" dalla variabile city
